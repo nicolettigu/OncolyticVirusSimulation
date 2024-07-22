@@ -1,7 +1,12 @@
-Note: the results of the PDE solution are stored in the folder ./< Simulations | Figures >/results with the appropriate name. I did not save the figures of all of them, only the numpy array result, to then plot and save the images with additional information using the notebook Results.ipynb (used to create the plots in the report).
+For more information please read the Report.
 
+This project was developed during the course "Mathematical Models for Biomedicine" at Politecnico di Torino, in which I have reproduced the results obtained in the paper "Agent-Based and Continuum Models for Spatial Dynamics of Infection by Oncolytic Viruses" by Morselli et al.
+
+The results of the PDE solution are stored in the folder "./<Simulations|Figures>/results". I did not save the figures of all times, only the numpy array, to then plot and save the images with additional information using the notebook Results.ipynb (used to create the plots in the Report).
+
+Information on the simulations:
 SIM 1
-2D random movement, pop unit = 2 for uninfected and infected too! using pop_unit != 1 for infected is not a good approximation, so this simulation is not displayed in the report.
+2D random movement, pop_unit = 2 for uninfected and infected too. Using pop_unit != 1 for infected is not a good approximation, this simulation is not displayed in the report.
 
 SIM 2, 3, 4
 2D random movement (delta=0.1 tau=0.2) and reference parameters
